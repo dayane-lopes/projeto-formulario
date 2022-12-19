@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login2.css">
+</head>
+<body>
+    <main>
+        <section>
+         <h1>Inscrever-se</h1>
+            <form action="entrar.php"       method="post" autocomplete="on">
+            <p>
+                <label for="usuario"> Nome do Usuário</label>
+                <br>
+                <input type="text" name="usuario" id="usuario" size="65" placeholder="Nome do Usuário" autocomplete="username">
+            </p>
+
+            <p>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="email" required>
+            </p>
+
+            <p>
+                <label for="senha">Senha</label>
+                <br>
+                <input type="password" name="senha" id="senha" required minlength="8" size="65" placeholder="Senha" autocomplete="new-password" > 
+            </p>
+
+            <p>
+                <label for="confirmarsenha">Confirmar Senha</label>
+                <br>
+                <input type="password" name="senha" id="senha" required minlength="8" size="65" placeholder="Confirmar Senha" autocomplete="new-password">
+            </p>
+
+            <p>
+                <button class="botao" type="submit"> Entrar</button>
+               </p>
+         </form>
+
+
+         <p class="entrar">Já tem uma conta?
+         <a href="projeto.html" target="_blank" > Entrar</a>
+         </p>
+
+        </section>
+
+        <aside>
+         
+         <p>Bem-vindo ao <br> <span>Bagilink.id</span></p>
+         
+         <img src="imagens/being-happy.png" alt="">
+   
+        </aside>
+    </main>
+
+</body>
+</html>
