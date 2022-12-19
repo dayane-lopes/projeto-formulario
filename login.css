@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+form {
+ width: 500px;
+ height: 280px;
+ position: relative;
+ right: -740px;
+ bottom: -100px;
+}
+
+.botao {
+    font-size: 1em;
+    background: var(--cor4);
+    border-radius: 8px;
+    position: relative;
+    width: 458px;
+    height: 40px;
+    bottom: -80px;
+}
+
+
+p {
+    width: 500px;
+}
+
+
+
+p.esquecersenha {
+    font-family: var(--fonte-padão);
+    width: 145px;
+    height: 21px;
+    font-size: 14px;
+    color: var(--cor3);
+    position: relative;
+    right: -1044px;
+    bottom: -9px;
+
+}
+
+
+p.naoregistrado {
+    font-family: var(--fonte-padão);
+    width: 290px;
+    height: 21px;
+    font-size: 14px;
+    color: var(--cor5);
+    position: relative;
+    left: 847px;
+    bottom: -133px;
+
+}
+
+h1  {
+    width: 105px;
+    height: 48px;
+    font-family: var(--fonte-padão); 
+    font-size: 2em;
+    position: relative;
+    margin: -2%;
+    left: 930px;
+    bottom: -100px;
+}
+
+aside p {
+    font-family: var(--fonte-padão);
+    position: relative;
+    width: 366px;
+    height: 108px;
+    left: 115px;
+    top: 336px;
+    font-size: 36px;
+    color: var(--cor5);
+}
