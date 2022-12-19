@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+form {
+    width: 500px;
+    height: 280px;
+    position: relative;
+    right: -740px;
+    bottom: -100px;
+}
+   
+input{
+    background-color: var(--cor2);
+    border-radius: 8px;
+    width: 450px;
+    height: 35px;
+    flex-direction: column;
+}
+   
+.botao {
+    font-size: 1em;
+    background-color: var(--cor4);
+    border-radius: 8px;
+    position: relative;
+    width: 458px;
+    height: 40px;
+    top: 31px;
+}
+
+p.voltar {
+    font-family: var(--fonte-padão);
+    width: 100px;
+    height: 21px;
+    font-size: 14px;
+    color: var(--cor5);
+    position: relative;
+    left: -17px;
+    bottom: -80px;
+    margin-right: 0px;
+    margin-left: 223px;
+
+}
+h1  {
+    width: 300px;
+    height: 48px;
+    font-family: var(--fonte-padão); 
+    font-size: 2em;
+    position: relative;
+    margin: -2%;
+    left: 819px;
+    bottom: -100px;
+}
+
+aside p {
+    font-family: var(--fonte-padão);
+    position: relative;
+    width: 391px;
+    height: 108px;
+    left: 115px;
+    top: 336px;
+    font-size: 36px;
+    color: var(--cor5);
+}
